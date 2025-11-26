@@ -3,5 +3,5 @@ for i in range(0, 10):
     for h in range(i + 1, 10):
         if i == 8 and h == 9:
             print("{:02d}".format(i * 10 + h))
-        else: 
+        else:
             print("{:02d}".format(i * 10 + h), end=", ")
