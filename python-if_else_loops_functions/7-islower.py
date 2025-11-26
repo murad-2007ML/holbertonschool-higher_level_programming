@@ -4,6 +4,3 @@ def islower(c):
         return True
     else:
         return False
-a = input()
-if True:
-    print(a," is {}".format("lower" if islower(a) else "upper"))
