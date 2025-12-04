@@ -2,4 +2,7 @@
 def common_elements(set_1, set_2):
     c = set_1 & set_2
     return c
-# set_1 & set_2 == set_1.intersection(set_2)
+# set_1 & set_2 == set_1.intersection(set_2) or for method can be used
+#for i in set_1:
+#    if i in set_2:
+#        c.add(i)
