@@ -3,8 +3,7 @@ def list_division(my_list_1, my_list_2, list_length):
     a = []
     for i in range(list_length):
         try:
-            if isinstance(my_list_1[i], (int, float)) and isinstance(my_list_2[i], (int, float)):
-                result = my_list_1[i] / my_list_2[i]
+             result = my_list_1[i] / my_list_2[i]
         except TypeError:
             print("wrong type")
             result = 0
