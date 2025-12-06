@@ -7,4 +7,4 @@ def weight_average(my_list=[]):
         for j in i:
             h = h * j
         result += h
-    return "Average: {:0.2f}".format(result/n)
+    return result / n
