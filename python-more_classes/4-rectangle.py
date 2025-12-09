@@ -49,6 +49,7 @@ class Rectangle:
             s += self.__width * "#"
             s += "\n"
         return s[:-1]
+
     def __display__(self):
         if self.__width == 0 or self.__height == 0:
             print()
