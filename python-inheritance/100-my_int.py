@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Myint rebels"""
 
-def MyInt(int):
+class MyInt(int):
     """MyInt rebel"""
     def __eq__(self, other):
         return super().__ne__(other)
