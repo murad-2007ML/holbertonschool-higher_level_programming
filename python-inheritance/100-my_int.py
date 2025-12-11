@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Myint rebels"""
 
+
 class MyInt(int):
     """MyInt rebel"""
     def __eq__(self, other):
