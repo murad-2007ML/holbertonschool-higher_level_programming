@@ -4,7 +4,7 @@ import sys
 
 
 def safe(board, row, col):
-    if r, c in board:
+    for r, c in board:
         if c == col:
             return False
         if abs(r - row) == abs(c - col):
