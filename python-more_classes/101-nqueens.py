@@ -30,7 +30,7 @@ if __name__ == "__main__":
     if not type(sys.argv[1]) is int:
         print("N must be a number")
         sys.exit(1)
-    if N < 4:
+    if n < 4:
         print("N must be at least 4")
         sys.exit(1)
     boardd(N)
