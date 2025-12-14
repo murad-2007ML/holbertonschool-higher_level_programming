@@ -17,3 +17,5 @@ def pascal_triangle(n):
         triangle.append(a)
         print(a)
     return triangle
+for i in pascal_triangle(n):
+    print(i)
