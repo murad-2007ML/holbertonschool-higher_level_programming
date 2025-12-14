@@ -15,6 +15,5 @@ def pascal_triangle(n):
                 a.append(b[k] + b[k-1])
             a.append(1)
         triangle.append(a)
+        print(a)
     return triangle
-n = 5
-print(pascal_triangle(n))
