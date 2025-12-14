@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+"""using JSON represantion"""
+import json as j
+
+
+def save_to_json_file(my_obj, filename):
+    """JSON represantion"""
+    with open(filename, encoding="utf-8") as f:
+        json.dump(my_obj, f)
