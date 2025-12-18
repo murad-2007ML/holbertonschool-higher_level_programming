@@ -17,7 +17,7 @@ class CustomObject:
         try:
             with open(filename, "wb") as f:
                 pickle.dump(self, f)
-        except Exceptation as e:
+        except Exception as e:
             print("Error: {}".format(e))
             return None
 
@@ -26,6 +26,6 @@ class CustomObject:
         try:
             with open(filename, "rb") as f:
                 return pickle.load(f)
-        except Exceptation as e:
+        except Exception as e:
             print("Error: {}".format(e))
             return None
